@@ -1,6 +1,6 @@
 # Discord Creations Webhook
 
-This is a code template to add to self host for your discord bot to move messages without a link or attachment (including image) from your #community-creations channel to your #creations-discussions channel.
+This is a code template to add to self host for your discord bot to move messages without a link or attachment (including images) from your #community-creations channel to your #creations-discussions channel.
 
 ## Example
 
