@@ -37,5 +37,5 @@ client.on("message", message => {
 
 // server to keep alive
 const server = require("express")()
-server.all("/keepalive", (req, res) => res.send("kept alive"))
+server.all("/", (req, res) => res.send("kept alive"))
 server.listen(3000, () => console.log("server running"))
