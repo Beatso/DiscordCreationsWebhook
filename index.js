@@ -31,7 +31,11 @@ client.on("message", message => {
 	
 	message.delete()
 	message.reply(`your message was deleted because it didn't have an attachment, image or link. Please use <#${process.env.discussionchannelid}> for talking about creations posted in this channel.`).then(response=>response.delete({timeout:15000}))
-	creationsWebhook.send(message.content,{username:message.author.username,avatarURL:message.author.avatarURL({dynamic:true})})
+
+	if (message.member.nickname==null) name = message.author.username
+	else name = message.member.nickname
+
+	creationsWebhook.send(message.content, { username: name, avatarURL: message.author.avatarURL({dynamic:true}) } )
 
 })
 
