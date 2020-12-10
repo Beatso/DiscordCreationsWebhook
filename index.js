@@ -23,7 +23,7 @@ client.on("message", message => {
 	if (
 		message.channel.id!=process.env.creationschannelid || // the message is not in community creations
 		message.author.id==client.user.id || // the message was sent my the bot
-		message.attachments.length>0 || // there is an attachment
+		message.attachments.array().length>0 || // there is an attachment
 		message.content.includes("http://") || // there is a link
 		message.content.includes("https://") // there is a link
 
