@@ -23,7 +23,7 @@ Repopulate the values with the real values of your server.
 - `bottoken` should be the token of the bot your created earlier. Go to the [Discord Developer Portal](https://discord.com/developers/applications), your bot's page then the Bot tab. Press Copy in the Token section, and paste it into the `.env` file.
 ![creating env file and pasting contents from .env.example](/assets/token.gif)
 
-Press the Run button at the top in repl.it. If everything works correctly, a new section should appear on the page with a URL at the top. It will be something simialar to `https://DiscordCreationsWebhook.beatso1.repl.co`. Copy this.
+Press the Run button at the top in repl.it. If everything works correctly, a new section should appear on the page with a URL at the top. It will be something similar to `https://DiscordCreationsWebhook.beatso1.repl.co`. Copy this.
 
 Go to [uptimerobot.com](https://uptimerobot.com/) and create an account if you don't already have one. Then head to the [dashboard](https://uptimerobot.com/dashboard#mainDashboard) and press Add New Monitor.  
 Set Monitor Type to HTTP(s).  
